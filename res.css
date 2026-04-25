@@ -1,0 +1,81 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: linear-gradient(rgb(0,0,0,0,5) rgb(0,0,0,05));
+    background-image: url(restuarant3.jpg);
+    background-size: 100vw 200vh;
+    background-repeat: no repeat;
+
+}
+    
+
+header{
+    background-color: red;
+}
+
+.bg{
+    background-color: blue;
+    color: yellow;
+}
+header h1{
+    font-size: 2em;
+    text-align: center;
+    color:#ffffff
+}
+
+/* descdent selector */
+header p{
+    color: #fffedc;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+/* id selector of index page */
+#resdescription{
+    color: rgb(15,188,20);
+}
+nav a{
+    color: goldenrod;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+
+
+
+main p{
+    line-height: 3em;
+    color: green;
+    text-indent: 30px;
+}
+
+
+main p span{
+    color: blue;
+    text-transform: uppercase;
+}
+
+main ul li {
+    /* list-style-image: url(); */
+
+}
+
+.foot{
+    background-color: lightblue;
+    height: 80px;
+
+    font-size: medium;
+    font-style: italic;
+
+}
+
+.restuarant{
+    width: 400px;
+    height: 400px;
+}
